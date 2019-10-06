@@ -23,6 +23,7 @@ class PromoListVC: UIViewController, OfferCellDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         configUI()
         promoListApiCall()
     }
